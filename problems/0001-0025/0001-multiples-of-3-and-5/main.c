@@ -2,20 +2,16 @@
 
 #define RANGE 1000
 
-unsigned int count_divisibility(unsigned int divisor) {
+unsigned short count_divisibility(unsigned short divisor) {
     int count = 0;
 
-    for ( int i = 1 ; i < RANGE ; i++ ) {
-        if ( i % divisor == 0 ) {
-            count++;
-        }
-    }
+    count = (RANGE - 1) / divisor;
 
     return count;
 }
 
 // Use the identity n(n+1)/2 to calculate the sum
-unsigned int calculate_divisibility_sum(unsigned int number, unsigned int count) {
+unsigned int calculate_divisibility_sum(unsigned short number, unsigned short count) {
     unsigned int divisibility_sum = 0;
 
     divisibility_sum = number * (count * (count + 1)) / 2;
