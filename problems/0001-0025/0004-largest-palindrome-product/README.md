@@ -1,4 +1,4 @@
-# Problem 4 -- [Summation of primes](https://projecteuler.net/problem=4)
+# Problem 4 -- [Largest palindrome product](https://projecteuler.net/problem=4)
 
 _Difficulty rating: __5%___
 
